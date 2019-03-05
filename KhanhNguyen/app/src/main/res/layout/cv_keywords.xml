@@ -1,0 +1,22 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/cvKeyWords"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txtKeyWord"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="3"></TextView>
+</android.support.v7.widget.CardView>
